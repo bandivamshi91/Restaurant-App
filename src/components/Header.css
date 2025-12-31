@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.restaurant-name {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.orders-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.orders-text {
+  font-size: 16px;
+}
+
+.cart-count {
+  background-color: orange;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 50%;
+}
